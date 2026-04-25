@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Analytics Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li>Overview</li>
+      <li>Sales</li>
+      <li>Inventory</li>
+      <li>Customers</li>
+      <li>Reports</li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <!-- Header -->
+    <header>
+      <h1>Analytics Web Dashboard</h1>
+      <p>Real-time insights for retail business</p>
+    </header>
+
+    <!-- Stats Cards -->
+    <section class="cards">
+      <div class="card">
+        <h3>Revenue</h3>
+        <p>₹1,24,000</p>
+      </div>
+      <div class="card">
+        <h3>Orders</h3>
+        <p>1,320</p>
+      </div>
+      <div class="card">
+        <h3>Customers</h3>
+        <p>870</p>
+      </div>
+      <div class="card">
+        <h3>Growth</h3>
+        <p>+40%</p>
+      </div>
+    </section>
+
+    <!-- Charts -->
+    <section class="charts">
+      <div class="chart-box">
+        <h3>Sales Overview</h3>
+        <canvas id="salesChart"></canvas>
+      </div>
+
+      <div class="chart-box">
+        <h3>Inventory Distribution</h3>
+        <canvas id="inventoryChart"></canvas>
+      </div>
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
