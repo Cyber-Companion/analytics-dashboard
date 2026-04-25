@@ -20,4 +20,5 @@ A real-time analytics dashboard designed for retail businesses to track sales, i
 - Sub-2-second load time
 
 ## 📷 Preview
-(Add your project screenshot here)
+<img width="1920" height="837" alt="image" src="https://github.com/user-attachments/assets/bc6929aa-881a-40af-8a28-11cc4067ac67" />
+
